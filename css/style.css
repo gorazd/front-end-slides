@@ -43,6 +43,10 @@ p {
   font-weight: 300;
 }
 
+a, a:link {
+  color: #df5000;
+}
+
 .remark-slide-number {
   opacity: 1;
 
