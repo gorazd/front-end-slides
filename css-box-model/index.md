@@ -87,87 +87,6 @@ div {
 
 ---
 
-## The `display` property
-
-#### The display CSS property specifies the type of rendering box used for an element. 
-
-In HTML, default display property values are taken from behaviors described in the HTML specifications or from the browser/user default stylesheet.
-
-In addition to the many different display box types, the value none lets you turn off the display of an element; **when you use none, all descendant elements also have their display turned off**. The document is rendered as though the element doesn't exist in the document tree.
-
-```css
-display: none;
-display: inline;
-display: block;
-display: inline-block;
-```
-
----
-
-## The `display` property
-
-#### Display is CSS's most important property for controlling layout. 
-
-Every element has a default display value depending on what type of element it is. 
-
-The default for most elements is usually block or inline. 
-- A block element is often called a block-level element. 
-- An inline element is always just called an inline element.
-
----
-
-##The `display: block` property
-
-**div** is the standard block-level element. A block-level element starts on a new line and stretches out to the left and right as far as it can. Other common block-level elements are p and form, and new in HTML5 are header, footer, section, and more. 
-
-```css
-div {
-  display: block;
-}
-```
-
----
-
-##The `display: inline` property
-
-**span** is the standard inline element. An inline element can wrap some text inside a paragraph without disrupting the flow of that paragraph. The a element is the most common inline element, since you use them for links. 
-
-```css
-div {
-  display: inline;
-}
-```
-
----
-
-##The `display: inline-block` property
-
-An element set to inline-block is very similar to inline in that it will set inline with the natural flow of text (on the "baseline"). 
-
-The difference is that you are able to set a width and height which will be respected.
-
-```css
-div {
-  display: inline-block;
-}
-```
-
----
-
-##The `display: none` property
-
-Another common display value is **none**. Some specialized elements such as script use this as their default. It is commonly used with JavaScript to hide and show elements without really deleting and recreating them.
-
-This is different from visibility. Setting display to none will render the page as though the element does not exist. visibility: hidden; will hide the element, but the element will still take up the space it would if it was fully visible.
-
-```css
-div {
-  display: none;
-}
-```
-
----
-
 ## Padding shorthand
 
 ```css
@@ -248,6 +167,87 @@ div {
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 10px;
+}
+```
+
+---
+
+## The `display` property
+
+#### The display CSS property specifies the type of rendering box used for an element. 
+
+In HTML, default display property values are taken from behaviors described in the HTML specifications or from the browser/user default stylesheet.
+
+In addition to the many different display box types, the value none lets you turn off the display of an element; **when you use none, all descendant elements also have their display turned off**. The document is rendered as though the element doesn't exist in the document tree.
+
+```css
+display: none;
+display: inline;
+display: block;
+display: inline-block;
+```
+
+---
+
+## The `display` property
+
+#### Display is CSS's most important property for controlling layout. 
+
+Every element has a default display value depending on what type of element it is. 
+
+The default for most elements is usually block or inline. 
+- A block element is often called a block-level element. 
+- An inline element is always just called an inline element.
+
+---
+
+##The `display: block` property
+
+**div** is the standard block-level element. A block-level element starts on a new line and stretches out to the left and right as far as it can. Other common block-level elements are p and form, and new in HTML5 are header, footer, section, and more. 
+
+```css
+div {
+  display: block;
+}
+```
+
+---
+
+##The `display: inline` property
+
+**span** is the standard inline element. An inline element can wrap some text inside a paragraph without disrupting the flow of that paragraph. The a element is the most common inline element, since you use them for links. 
+
+```css
+div {
+  display: inline;
+}
+```
+
+---
+
+##The `display: inline-block` property
+
+An element set to inline-block is very similar to inline in that it will set inline with the natural flow of text (on the "baseline"). 
+
+The difference is that you are able to set a width and height which will be respected.
+
+```css
+div {
+  display: inline-block;
+}
+```
+
+---
+
+##The `display: none` property
+
+Another common display value is **none**. Some specialized elements such as script use this as their default. It is commonly used with JavaScript to hide and show elements without really deleting and recreating them.
+
+This is different from visibility. Setting display to none will render the page as though the element does not exist. visibility: hidden; will hide the element, but the element will still take up the space it would if it was fully visible.
+
+```css
+div {
+  display: none;
 }
 ```
 
