@@ -141,9 +141,11 @@ Grid has a solution for this with the **minmax()** function. In this next exampl
 
 ##Grid Lines
       
-It should be noted that when we define a grid we define the grid tracks, not the lines. Grid then gives us numbered lines to use when positioning items. In our three column, two row grid we have four column lines.
+It should be noted that when we define a grid we define the grid tracks, not the lines. Grid then gives us numbered lines to use when positioning items. 
 
-.responsive[![grid lines](1_diagram_numbered_grid_lines.png)]
+In our three column, two row grid we have four column lines.
+
+.half[![grid lines](grid-lines.png)]
 
 ---
 
@@ -242,7 +244,7 @@ You can also use the span keyword in the value of **grid-row-start** and **grid-
       
 A grid cell is the smallest unit on a grid, conceptually it is like a table cell. As we saw in our earlier examples, once a grid is defined on a parent the child items will lay themselves out once in each cell of the defined grid. In the below image I have highlighted the first cell of the grid.
 
-.small[![grid cell](1_Grid_Cell.png)]
+.half[![grid cell](grid-cell.png)]
 
 ---
 
@@ -250,7 +252,7 @@ A grid cell is the smallest unit on a grid, conceptually it is like a table cell
 
 Items can span one or more cells both by row or by column, and this creates a grid area. Grid areas have to be rectangular – it isn’t possible to create an L-shaped area for example. The highlighted grid area spans two row and two column tracks.
 
-.small[![grid cell](1_Grid_Area.png)]
+.half[![grid area](grid-area.png)]
 
 ---
 
@@ -290,7 +292,7 @@ The two properties can also be expressed as a shorthand, **grid-gap**. If you on
 
 A grid item can become a grid container.
 
-.responsive[![nested grid](1_Nested_Grids_in_flow.png)]
+.half[![grid nesting](grid-sub-grid.png)]
 
 ---
 
@@ -298,8 +300,9 @@ A grid item can become a grid container.
 
 Grid items can occupy the same cell.
 
-You can use z-index to control their stacking order.
+.half[![grid z-index](grid-z-index.png)]
 
+You can use `z-index` to control their stacking order.
 
 ---
 

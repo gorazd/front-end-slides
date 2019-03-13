@@ -72,10 +72,15 @@ img {
   height: auto;
 }
 
+.half {
+  width: 50%;
+  display: block;
+}
+
 .smallimg {
   display: block;
   transform-origin: top left;
-  transform: scale(.7);
+  transform: scale(.37);
 }
 
 /*
