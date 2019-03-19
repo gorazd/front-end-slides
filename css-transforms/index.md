@@ -27,7 +27,7 @@ Specifies the transforms to apply to the element. It is a space separated list o
 
 **scale()**: affects the size of the element. This also applies to the font-size, padding, height, and width of an element, too. It’s also a a shorthand function for the scaleX and scaleY functions.
 
-**skewX()** and **skewY()**: tilts an element to the left or right, like turning a triangle into a parallelogram. There is no shorthand skew property.
+**skewX()** and **skewY()**: tilts an element to the left or right, like turning a rectangle into a parallelogram. There is no shorthand skew property.
 
 
 **translate()**: moves an element sideways or up and down.
