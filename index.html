@@ -8,20 +8,22 @@
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/style.css">
   <style>
-    .main-body { font-size: 200%; font-weight: 100; min-height: 100vh; display: flex; justify-content: center;align-items: center; flex-flow: column nowrap; }
+    .main-body { font-size: 200%; font-weight: 100; min-height: 100vh; display: flex; justify-content: center; align-items: baseline; flex-flow: row wrap; }
     h1, h2 { display: block; }
+    h1 { width: 100%; text-align: center; }
     h2 { font-size: 2rem; border-bottom: 1px solid #ddd;  }
     h2:before { display: none; }
+    ul { padding: 0 1em; }
   </style>
 </head>
 <body class="main-body">
+  <h1>Front-End Technologies</h1>
   <article>
-    <h1>Front-End Technologies</h1>
     <h2>CSS</h2>
     <ul>
-      <li><a href="css-typography">Typography</a></li>
-      <li><a href="css-units">Units</a></li>
-      <li><a href="css-box-model">Box Model</a></li>
+      <li><a href="css-typography/">Typography</a></li>
+      <li><a href="css-units/">Units</a></li>
+      <li><a href="css-box-model/">Box Model</a></li>
       <li><a href="css-positioning/">Positioning</a></li>
       <li><a href="css-flexbox/">Flexbox</a></li>
       <li><a href="css-grid/">Grid Layout</a></li>
@@ -42,6 +44,14 @@
         @supports
         colors, backgrounds, gradients
        -->
+    </ul>
+  </article>
+  <article>
+    <h2>JavaScript</h2>
+    <ul>
+      <li><a href="js-variables/">Variables</a></li>
+      <li><a href="js-datatypes/">Data types</a></li>
+      <li><a href="js-statements/">Statements</a></li>
     </ul>
   </article>
 </body>
