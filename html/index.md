@@ -22,17 +22,11 @@ A network is a group of two or more computer systems linked together. There are 
 The one we are using in the school is called LAN, local-area network. 
 
 WAN, wide-area network is a network where the computers are farther apart and are connected by telephone lines or radio waves.
-]
 
 
 ---
 
-layout: false
-.left-column[
-]
-.right-column[
 ##Network
-
 
 .responsive[![Network](internet-schema-1.png)]
 
@@ -45,10 +39,6 @@ Routers use headers and forwarding tables to determine the best path for forward
 
 ---
 
-layout: false
-.left-column[
-]
-.right-column[
 ##Router
 Router has only one job: it makes sure that a message sent from a given computer arrives at the right destination computer.
 
@@ -56,10 +46,6 @@ Router has only one job: it makes sure that a message sent from a given computer
 
 ---
 
-layout: false
-.left-column[
-]
-.right-column[
 ##Router
 By connecting computers to routers, then routers to routers, we are able to scale infinitely.
 
