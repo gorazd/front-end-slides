@@ -327,24 +327,24 @@ How do we nest them?
 ---
 
 ##Nesting
-In the HTML5 standard, the ```<article>``` element defines a complete, self-contained block of related elements.
+In the HTML5 standard, the `<article>` element defines a complete, self-contained block of related elements.
 
-The ```<section>``` element is defined as a block of related elements.
+The `<section>` element is defined as a block of related elements.
 
 Can we use the definitions to decide how to nest elements? No, we cannot!
 
-On the Internet, you will find HTML pages with ```<section>``` elements containing ```<article>``` elements, and ```<article>``` elements containing ```<sections>``` elements.
+On the Internet, you will find HTML pages with `<section>` elements containing `<article>` elements, and `<article>` elements containing `<sections>` elements.
 
-You will also find pages with ```<section>``` elements containing ```<section>``` elements, and ```<article>``` elements containing ```<article>``` elements.
+You will also find pages with `<section>` elements containing `<section>` elements, and `<article>` elements containing `<article>` elements.
 
 ---
 
-##HTML5 ```<header>``` Element
-The ```<header>``` element specifies a header for a document or section.
+##HTML5 `<header>` Element
+The `<header>` element specifies a header for a document or section.
 
-The ```<header>``` element should be used as a container for introductory content.
+The `<header>` element should be used as a container for introductory content.
 
-You can have several ```<header>``` elements in one document.
+You can have several `<header>` elements in one document.
 ```html
 <article>
   <header>
@@ -356,15 +356,15 @@ You can have several ```<header>``` elements in one document.
 ```
 ---
 
-##HTML5 ```<footer>``` Element
+##HTML5 `<footer>` Element
 
-The ```<footer>``` element specifies a footer for a document or section.
+The `<footer>` element specifies a footer for a document or section.
 
-A ```<footer>``` element should contain information about its containing element.
+A `<footer>` element should contain information about its containing element.
 
 A footer typically contains the author of the document, copyright information, links to terms of use, contact information, etc.
 
-You can have several ```<footer>``` elements in one document.
+You can have several `<footer>` elements in one document.
 
 ```html
 <footer>
@@ -377,9 +377,9 @@ You can have several ```<footer>``` elements in one document.
 
 ---
 
-##HTML5 ```<aside>``` Element
+##HTML5 `<aside>` Element
 
-The ```<aside>``` element defines some content aside from the content it is placed in (like a sidebar).
+The `<aside>` element defines some content aside from the content it is placed in (like a sidebar).
 
 The aside content should be related to the surrounding content.
 ```html
@@ -395,11 +395,11 @@ The Epcot center this summer.</p>
 ```
 ---
 
-##HTML5 ```<figure>``` and ```<figcaption>``` Elements
+##HTML5 `<figure>` and `<figcaption>` Elements
 
 The purpose of a caption is to add a visual explanation to an image.
 
-With HTML5, images and captions can be grouped together in ```<figure>``` elements:
+With HTML5, images and captions can be grouped together in `<figure>` elements:
 ```html
 <figure>
   <img src="pic_mountain.jpg" alt="The Pulpit Rock" width="304" height="228">
@@ -408,13 +408,13 @@ With HTML5, images and captions can be grouped together in ```<figure>``` elemen
 ```
 ---
 
-##HTML5 ```<main>``` Element
+##HTML5 `<main>` Element
 
-The ```<main>``` tag specifies the main content of a document.
+The `<main>` tag specifies the main content of a document.
 
-The content inside the ```<main>``` element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms.
+The content inside the `<main>` element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms.
 
-There must not be more than one ```<main>``` element in a document. The ```<main>``` element must NOT be a descendant of an ```<article>```, ```<aside>```, ```<footer>```, ```<header>```, or ```<nav>``` element.
+There must not be more than one `<main>` element in a document. The `<main>` element must NOT be a descendant of an `<article>`, `<aside>`, `<footer>`, `<header>`, or `<nav>` element.
 ```html
 <main>
   <h1>Web Browsers</h1>
@@ -430,27 +430,27 @@ There must not be more than one ```<main>``` element in a document. The ```<main
 
 ---
 
-##HTML ```<mark>``` Tag
-The ```<mark>``` tag defines marked text.
+##HTML `<mark>` Tag
+The `<mark>` tag defines marked text.
 
-Use the ```<mark>``` tag if you want to highlight parts of your text.
+Use the `<mark>` tag if you want to highlight parts of your text.
 ```html
 <p>Do not forget to buy <mark>milk</mark> today.</p> 
 ```
 
 ---
 
-##HTML ```<summary>``` Tag
-The ```<summary>``` tag defines a visible heading for the ```<details>``` element. The heading can be clicked to view/hide the details.
+##HTML `<summary>` Tag
+The `<summary>` tag defines a visible heading for the `<details>` element. The heading can be clicked to view/hide the details.
 
 ---
 
-##HTML ```<details>``` Tag
-The ```<details>``` tag specifies additional details that the user can view or hide on demand.
+##HTML `<details>` Tag
+The `<details>` tag specifies additional details that the user can view or hide on demand.
 
-The ```<details>``` tag can be used to create an interactive widget that the user can open and close. Any sort of content can be put inside the ```<details>``` tag.
+The `<details>` tag can be used to create an interactive widget that the user can open and close. Any sort of content can be put inside the `<details>` tag.
 
-The content of a ```<details>``` element should not be visible unless the open attribute is set.
+The content of a `<details>` element should not be visible unless the open attribute is set.
 
 ```html
 <details>
@@ -462,8 +462,8 @@ The content of a ```<details>``` element should not be visible unless the open a
 
 ---
 
-##HTML ```<time>``` Tag
-The ```<time>``` tag defines a human-readable date/time.
+##HTML `<time>` Tag
+The `<time>` tag defines a human-readable date/time.
 
 This element can also be used to encode dates and times in a machine-readable way so that user agents can offer to add birthday reminders or scheduled events to the user's calendar, and search engines can produce smarter search results.
 
